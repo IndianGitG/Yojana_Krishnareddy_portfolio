@@ -1,0 +1,37 @@
+project:
+  type: website
+
+website:
+  title: "Krishna Reddy Yojana"
+  favicon: "images/kn.jpg"
+  page-footer:
+    center: |
+      [Contact Krishna Reddy Yojana](mailto: Krishna.YojanaKrishnareddy@my.unt.edu)
+    left: |
+      Made with [ Krishna Reddy Yojana ](https://quarto.org/)
+    right: |
+      [Github Code Repo](https://github.com)
+    background: "#ff0000"
+    
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Blog
+      - href: resume.qmd
+        text: Resume
+        
+    right:
+      - icon: github
+        href: https://github.com/krishnareddyyojana123
+      - icon: twitter
+        href: https://twitter.com
+format:
+  html:
+    theme:
+      light: zephyr
+      dark: [superhero]
+    highlight-style: github
+editor: visual
+
